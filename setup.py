@@ -11,7 +11,7 @@ setup(
     packages=['prprocessor'],
     install_requires=[
         'PyYAML',
-        'octomachinery',
+        'octomachinery >= 0.3.11',
         'python-redmine',
     ],
     package_data={'prprocessor': ['config/*.yaml']},
